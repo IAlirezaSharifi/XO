@@ -1,0 +1,71 @@
+/* CSS Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #167623;
+  color: #399fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.3em solid;
+  border-radius: 1em;
+}
+
+/* Des */
+
+#description {
+  padding: 1em;
+}
+
+/* Container */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+/* Squares */
+
+.square {
+  width: 5em;
+  height: 5em;
+  border: 3px solid #055317;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 0.3em;
+  margin: 0.05em;
+}
+
+/* Button */
+
+button {
+  width: 5em;
+  height: 2em;
+  font-size: 1.3em;
+  color: #000;
+  background-color: #399fff;
+  border: 3px solid #000;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 1.5em;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #0075e3;
+}
+
+/* CSS End - ASH: AlirezaSharifi */
